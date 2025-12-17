@@ -1,0 +1,70 @@
+[
+  {
+    "task_id": 0,
+    "reward": 0.0,
+    "info": {
+      "task": {
+        "user_id": "yusuf_rossi_9620",
+        "actions": [
+          {
+            "name": "find_user_id_by_name_zip",
+            "kwargs": {
+              "first_name": "Yusuf",
+              "last_name": "Rossi",
+              "zip": "19122"
+            }
+          },
+          {
+            "name": "get_order_details",
+            "kwargs": {
+              "order_id": "#W2378156"
+            }
+          },
+          {
+            "name": "get_product_details",
+            "kwargs": {
+              "product_id": "1656367028"
+            }
+          },
+          {
+            "name": "get_product_details",
+            "kwargs": {
+              "product_id": "4896585277"
+            }
+          },
+          {
+            "name": "exchange_delivered_order_items",
+            "kwargs": {
+              "order_id": "#W2378156",
+              "item_ids": [
+                "1151293680",
+                "4983901480"
+              ],
+              "new_item_ids": [
+                "7706410293",
+                "7747408585"
+              ],
+              "payment_method_id": "credit_card_9513926"
+            }
+          }
+        ],
+        "instruction": "You are Yusuf Rossi in 19122. You received your order #W2378156 and wish to exchange the mechanical keyboard for a similar one but with clicky switches and the smart thermostat for one compatible with Google Home instead of Apple HomeKit. If there is no keyboard that is clicky, RGB backlight, full size, you'd go for no backlight. You are detail-oriented and want to make sure everything is addressed in one go.",
+        "outputs": []
+      },
+      "source": null,
+      "user_cost": null,
+      "reward_info": null
+    },
+    "traj": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "I understand your request for a **full-size mechanical keyboard with clicky switches and no RGB backlight**. If such an item is not available, you are open to a model without backlight.\n\nI will now search for alternative options that match your specifications. Please wait a moment while I retrieve the details."
+          }
+        ]
+      }
+    ],
+    "trial": 0
+  }
+]
